@@ -116,7 +116,7 @@ Navigation
   cursor: pointer;
 }
 
-.nav__hamburger svg {
+.nav__hamburger i {
   height: 2.3rem;
   width: 2.3rem;
 }
@@ -158,7 +158,7 @@ Navigation
   position: relative;
 }
 
-.nav__icons .icon__item svg {
+.nav__icons .icon__item i {
   width: 1.6rem;
   height: 1.6rem;
 }
@@ -217,7 +217,7 @@ Navigation
   margin-right: 2rem;
 }
 
-.page__titles a svg {
+.page__titles a i {
   width: 1.8rem;
   height: 1.8rem;
   fill: var(--grey2);
@@ -272,7 +272,7 @@ Navigation Media Query
     padding: 1.8rem 1rem;
   }
 
-  .menu__top svg {
+  .menu__top i {
     height: 1.6rem;
     width: 1.6rem;
     fill: var(--primaryColor);
@@ -320,7 +320,7 @@ Navigation Media Query
 }
 
 @media only screen and (max-width: 568px) {
-  .nav__icons .icon__item svg {
+  .nav__icons .icon__item i {
     width: 1.4rem;
     height: 1.4rem;
   }
@@ -383,7 +383,7 @@ Hero Area
   right: 23rem;
 }
 
-.hero .glide__arrow svg {
+.hero .glide__arrow i {
   height: 1.8rem;
   width: 1.8rem;
   fill: var(--primaryColor);
@@ -718,7 +718,7 @@ span.dot::before {
   text-align: center;
 }
 
-.product ul svg {
+.product ul i {
   width: 1.7rem;
   height: 1.7rem;
   fill: var(--white);
@@ -842,7 +842,7 @@ span.dot::before {
   padding: 1rem 0;
 }
 
-.rating svg {
+.rating i {
   width: 1.6rem;
   height: 1.6rem;
   fill: var(--yellow);
@@ -907,8 +907,8 @@ span.dot::before {
   right: 5%;
 }
 
-.latest__products .glide__arrow svg,
-.related__products .glide__arrow svg {
+.latest__products .glide__arrow i,
+.related__products .glide__arrow i {
   width: 1.5rem;
   height: 1.5rem;
   fill: var(--grey);
@@ -990,7 +990,7 @@ Latest Products Media Query
     height: 4rem;
   }
 
-  .rating svg {
+  .rating i {
     width: 1.3rem;
     height: 1.3rem;
   }
@@ -1093,7 +1093,7 @@ Pop Up
   cursor: pointer;
 }
 
-.popup__close svg {
+.popup__close i {
   width: 1.7rem;
   height: 1.7rem;
 }
@@ -1225,7 +1225,7 @@ Go Up
   }
 }
 
-.goto-top svg {
+.goto-top i {
   width: 1.3rem;
   height: 1.3rem;
   fill: var(--white);
@@ -1323,7 +1323,7 @@ Go Up
     padding: 1.3rem;
   }
 
-  .popup__close svg {
+  .popup__close i {
     width: 1.4rem;
     height: 1.4rem;
   }
@@ -1346,7 +1346,7 @@ Facility
   grid-template-columns: repeat(4, 1fr);
 }
 
-.facility-img__container svg {
+.facility-img__container i {
   width: 3rem;
   height: 3rem;
   transition: 1s;
@@ -1383,7 +1383,7 @@ Facility
   z-index: -1;
 }
 
-.facility__box:hover svg {
+.facility__box:hover i {
   transform: rotateY(180deg);
   line-height: 9.5rem;
 }
@@ -1734,7 +1734,7 @@ Footer
   line-height: 3rem;
 }
 
-.footer-top__box span svg {
+.footer-top__box span i {
   width: 1.6rem;
   height: 1.6rem;
   fill: var(--grey3);
@@ -1873,7 +1873,7 @@ Product Details
   border: 1px solid var(--black);
 }
 
-.product-details__btn svg {
+.product-details__btn i {
   width: 1.9rem;
   height: 1.9rem;
   transition: 0.3s;
@@ -1898,8 +1898,8 @@ Product Details
   color: var(--primaryColor);
 }
 
-.product-details__btn .add:hover svg,
-.product-details__btn .buy:hover svg {
+.product-details__btn .add:hover i,
+.product-details__btn .buy:hover i {
   fill: var(--primaryColor);
 }
 
@@ -2011,7 +2011,7 @@ Product Details
   border: 1px solid var(--primaryColor);
 }
 
-.input-counter svg {
+.input-counter i {
   width: 1.8rem;
   height: 1.8rem;
   fill: var(--grey3);
@@ -2030,7 +2030,7 @@ Product Details
   color: var(--black2);
 }
 
-.product-info__btn span svg {
+.product-info__btn span i {
   width: 1.8rem;
   height: 1.8rem;
 }
@@ -2240,7 +2240,7 @@ Product Details Media Query
     margin-right: 0rem;
   }
 
-  .product__review .rating svg {
+  .product__review .rating i {
     width: 1.4rem;
     height: 1.4rem;
   }
@@ -2265,7 +2265,7 @@ Cart Area
   object-fit: contain;
 }
 
-.remove__cart-item svg {
+.remove__cart-item i {
   width: 1.6rem;
   height: 1.6rem;
   fill: var(--grey2);
@@ -2327,7 +2327,7 @@ Cart Area
   margin-left: 1rem;
 }
 
-.remove__cart-item:hover svg {
+.remove__cart-item:hover i {
   fill: var(--orange);
 }
 
@@ -2430,7 +2430,7 @@ Cart Area Media Query
     padding: 1rem 0;
   }
 
-  .input-counter svg {
+  .input-counter i {
     width: 1.5rem;
     height: 1.5rem;
   }
